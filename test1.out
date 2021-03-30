@@ -1,0 +1,17 @@
+3 Using numpy, time taken is  14.798751831054688 s.
+1 Using numpy, time taken is  14.84599232673645 s.
+0 Using numpy, time taken is  15.0196213722229 s.
+('Using numpy, time taken is ', 15.0196213722229, 's.')
+2 Using numpy, time taken is  15.025990962982178 s.
+3 Using HeAT on cpus, time taken is  3.714240074157715 s.
+1 Using HeAT on cpus, time taken is  3.7261393070220947 s.
+0 Using HeAT on cpus, time taken is  3.779029607772827 s.
+2 Using HeAT on cpus, time taken is  3.7889904975891113 s.
+1 Uisng cupy, time taken is  2.0402877521514893 s.
+3 Uisng cupy, time taken is  2.051143236160278 s.
+0 Uisng cupy, time taken is  2.060632658004761 s.
+2 Uisng cupy, time taken is  2.068040142059326 s.
+1 Using HeAT on gpus, time taken is  0.1348169469833374 s.
+3 Using HeAT on gpus, time taken is  0.13476841211318968 s.
+2 Using HeAT on gpus, time taken is  0.1347188711166382 s.
+0 Using HeAT on gpus, time taken is  0.2484634494781494 s.

@@ -1,0 +1,40 @@
+Using numpy, time taken is  2.2881507873535156 s.
+Using numpy, time taken is  2.292983055114746 s.
+Using numpy, time taken is  2.3031764030456543 s.
+Using numpy, time taken is  2.290933847427368 s.
+Using HeAT on cpus, time taken is  1.008423089981079 s.
+Using HeAT on cpus, time taken is  1.0177576541900635 s.
+Using HeAT on cpus, time taken is  1.0066728591918945 s.
+Using HeAT on cpus, time taken is  1.0215530395507812 s.
+Uisng cupy, time taken is  0.33517166137695314 s.
+Uisng cupy, time taken is  0.3357949233055115 s.
+Uisng cupy, time taken is  0.34205830097198486 s.
+Uisng cupy, time taken is  0.34489733934402467 s.
+Using HeAT on gpus, time taken is  0.7743616247177124 s.
+Using HeAT on gpus, time taken is  0.75317950963974 s.
+Using HeAT on gpus, time taken is  0.7611024117469788 s.
+Using HeAT on gpus, time taken is  0.7502699279785157 s.
+Using HeAT on gpus, time taken is  0.6767865157127381 s.
+Using HeAT on gpus, time taken is  0.6767869353294372 s.
+Using HeAT on gpus, time taken is  0.676785945892334 s.
+Using HeAT on gpus, time taken is  0.676788227558136 s.
+Using HeAT on gpus, time taken is  0.8218923664093017 s.
+Using HeAT on gpus, time taken is  0.8218889546394348 s.
+Using HeAT on gpus, time taken is  0.8218951725959778 s.
+Using HeAT on gpus, time taken is  0.8218908786773682 s.
+Using HeAT on gpus, time taken is  0.6027800583839417 s.
+Oh my goodness, 10000
+Using HeAT on gpus, time taken is  0.6027788448333741 s.
+Oh my goodness, 10000
+Using HeAT on gpus, time taken is  0.6027813243865967 s.
+Oh my goodness, 10000
+Using HeAT on gpus, time taken is  0.6027789783477783 s.
+Oh my goodness, 10000
+Using HeAT on gpus, time taken is  0.5965276002883911 s.
+Oh my goodness, 20000
+Using HeAT on gpus, time taken is  0.5979106593132019 s.
+Oh my goodness, 20000
+Using HeAT on gpus, time taken is  0.5983284425735473 s.
+Oh my goodness, 20000
+Using HeAT on gpus, time taken is  0.5985236716270447 s.
+Oh my goodness, 20000

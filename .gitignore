@@ -1,0 +1,4 @@
+test.e*
+test.o*
+__pycache__/*
+dask-worker-space/*
