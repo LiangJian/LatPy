@@ -1,16 +1,4 @@
-Using numpy, time taken is  21.479623317718506 s.
-Using numpy, time taken is  21.534982681274414 s.
-Using numpy, time taken is  21.611216068267822 s.
-Using numpy, time taken is  21.636613130569458 s.
-Using HeAT on cpus, time taken is  7.42155909538269 s.
-Using HeAT on cpus, time taken is  7.4291791915893555 s.
-Using HeAT on cpus, time taken is  7.475934267044067 s.
-Using HeAT on cpus, time taken is  7.484049320220947 s.
-Uisng cupy, time taken is  4.637354202270508 s.
-Uisng cupy, time taken is  4.645987501144409 s.
-Uisng cupy, time taken is  4.667140140533447 s.
-Uisng cupy, time taken is  4.669770641326904 s.
-Using HeAT on gpus, time taken is  0.3028096652030945 s.
-Using HeAT on gpus, time taken is  0.3028931832313538 s.
-Using HeAT on gpus, time taken is  0.30307195901870726 s.
-Using HeAT on gpus, time taken is  0.4186968183517456 s.
+Using numpy, time taken is  21.72949481010437 s. 
+Using HeAT on cpus, time taken is  7.408856153488159 s. 
+Uisng cupy, time taken is  4.665657548904419 s. 
+Using HeAT on gpus, time taken is  0.4109229111671448 s. 
