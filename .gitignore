@@ -1,4 +1,5 @@
 test.e*
 test.o*
-__pycache__/*
-dask-worker-space/*
+tests/__pycache__/*
+tests/error.txt
+tests/output.txt
