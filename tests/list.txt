@@ -1,0 +1,5 @@
+test1: matrix+matrix
+test2: matrix+matrix*matrix
+test3: matrix@matrix
+test4: matrix@matrix weak scaling test (lattice size increases with gpus)
+test5: IO

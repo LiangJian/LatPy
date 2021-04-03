@@ -3,3 +3,4 @@ test.o*
 tests/__pycache__/*
 tests/error.txt
 tests/output.txt
+tests/data.h5

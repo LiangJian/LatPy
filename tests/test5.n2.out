@@ -1,0 +1,10 @@
+0 
+<class 'torch.Tensor'> torch.Size([1000, 2000]) 
+(2000, 2000) (1000, 2000) 0 
+0 torch.float64 cuda:0 torch.strided
+1 torch.float64 cuda:1 torch.strided
+(2000, 2000) (1000, 2000) 0 
+0 torch.float64 cuda:0 torch.strided
+1 torch.float64 cuda:1 torch.strided
+the loading time is 0.15 s for a 3.81 MB matrix. 
+0 None
