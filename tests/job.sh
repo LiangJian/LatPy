@@ -4,7 +4,7 @@
 #PBS -o output.txt
 #PBS -l walltime=0:30:00
 #PBS -q gpu
-#PBS -l nodes=gpu01:ppn=12
+#PBS -l nodes=gpu03:ppn=12
 ##PBS -l nodes=1:ppn=12
 #PBS -V
 
@@ -21,4 +21,6 @@ cd $path
 
 # mpirun -n 4 python test1.py > test1.out 2>&1 
 # mpirun -n 4 python test2.py > test2.out 2>&1 
-mpirun -n 4 python test3.py > test3.out 2>&1 
+# mpirun -n 4 python test3.py > test3.out 2>&1 
+
+mpirun -n 4 python test_MPI-IO.py > test_MPI-IO.out 2>&1 

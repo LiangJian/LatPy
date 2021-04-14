@@ -4,3 +4,4 @@ tests/__pycache__/*
 tests/error.txt
 tests/output.txt
 tests/data.h5
+tests/rbc_conf_3264_m0.004_0.03_000290

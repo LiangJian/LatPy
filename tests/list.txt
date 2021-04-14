@@ -2,4 +2,5 @@ test1: matrix+matrix
 test2: matrix+matrix*matrix
 test3: matrix@matrix
 test4: matrix@matrix weak scaling test (lattice size increases with gpus)
-test5: IO
+test5: IO and torch tensor
+test_MPI-IO: MPI-IO
