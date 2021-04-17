@@ -13,6 +13,10 @@
 
 # GPU8  36 Phyisical cores
 # DGX2  48 Phyisical cores
+
 export export OMP_NUM_THREADS=4
+export OMPI_MCA_btl=^vader,tcp,openib
 
 mpirun -np 4 python test1.py > test1_snsc.out 2>&1
+mpirun -np 4 python test2.py > test2_snsc.out 2>&1
+mpirun -np 4 python test3.py > test3_snsc.out 2>&1

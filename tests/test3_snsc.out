@@ -1,0 +1,9 @@
+Using numpy, time taken is  0.459547758102417 s. 
+Using HeAT on cpus, time taken is  0.5903229713439941 s. 
+Uisng cupy, time taken is  0.08308319568634033 s. 
+Using HeAT on gpus, split 00, time taken is  0.6611819386482238 s. 
+Using HeAT on gpus, split 11, time taken is  0.6609680151939392 s. 
+Using HeAT on gpus, split 10, time taken is  0.6839542889595032 s. 
+Using HeAT on gpus, split 01, time taken is  0.6070398473739624 s. 
+Using HeAT on gpus, matrix size 10000, time taken is  0.4227032256126404 s. 
+Using HeAT on gpus, matrix size 20000, time taken is  1.7873843264579774 s. 

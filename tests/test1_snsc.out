@@ -1,12 +1,4 @@
---------------------------------------------------------------------------
-WARNING: There was an error initializing an OpenFabrics device.
-
-  Local host:   gpu006
-  Local device: mlx5_1
---------------------------------------------------------------------------
-[gpu006:191864] 3 more processes have sent help message help-mpi-btl-openib.txt / error in device init
-[gpu006:191864] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
-Using numpy, time taken is  15.277154922485352 s. 
-Using HeAT on cpus, time taken is  1.2297985553741455 s. 
-Uisng cupy, time taken is  3.9709444713592528 s. 
-Using HeAT on gpus, time taken is  0.03820596218109131 s. 
+Using numpy, time taken is  16.29409408569336 s. 
+Using HeAT on cpus, time taken is  1.8629071712493896 s. 
+Uisng cupy, time taken is  0.5770221710205078 s. 
+Using HeAT on gpus, time taken is  0.036671946048736574 s. 
