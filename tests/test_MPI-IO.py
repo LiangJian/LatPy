@@ -13,8 +13,8 @@ print0(rank, 'gauge size:', Nd*8, "Byte", fflush=True)
 x = None
 t1 = time.time()
 if rank == 0:
-  # x = np.fromfile('rbc_conf_3264_m0.004_0.03_000290', dtype='>f8')
-  x = np.fromfile('rbc_conf_3264_m0.004_0.03_000290')
+  # x = np.fromfile('rbc_conf_3264_m0.004_0.03_000310', dtype='>f8')
+  x = np.fromfile('rbc_conf_3264_m0.004_0.03_000310')
   print0(rank, x.shape, x[-1])
 t2 = time.time()
 print0(rank, "Using numpy on single core, cost", (t2-t1), 's', " BW is", Nd*8/1024/2014/2014/(t2-t1), "GB/s.", fflush=True)
@@ -37,7 +37,7 @@ gauge_subarray = MPI.DOUBLE.Create_subarray(sizes, subsizes, starts)
 print(rank, 'gauge_subarray:', gauge_subarray.lb, gauge_subarray.ub, gauge_subarray.size, gauge_subarray.extent, flush=True)
 
 gauge_subarray.Commit()
-fh = MPI.File.Open(comm, "rbc_conf_3264_m0.004_0.03_000290", MPI.MODE_RDONLY)
+fh = MPI.File.Open(comm, "rbc_conf_3264_m0.004_0.03_000310", MPI.MODE_RDONLY)
 fh.Set_view(0, filetype=gauge_subarray)
 
 buffer = np.empty(shape=subsizes)
@@ -62,7 +62,7 @@ gauge_darray = MPI.DOUBLE.Create_darray(ngpu, rank, sizes, distribs, dargs, psiz
 print(rank, 'gauge_darray:', gauge_darray.lb, gauge_darray.ub, gauge_darray.size, gauge_darray.extent, flush=True)
 
 gauge_darray.Commit()
-fh = MPI.File.Open(comm, "rbc_conf_3264_m0.004_0.03_000290", MPI.MODE_RDONLY)
+fh = MPI.File.Open(comm, "rbc_conf_3264_m0.004_0.03_000310", MPI.MODE_RDONLY)
 fh.Set_view(0, filetype=gauge_darray)
 
 buffer = np.empty(shape=subsizes)
