@@ -11,4 +11,3 @@ tests/run_snsc.sh.o48
 tests/test_heat.log
 
 .vscode/
-dev_glc/
