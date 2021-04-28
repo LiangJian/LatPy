@@ -9,3 +9,6 @@ tests/rbc_conf_3264_m0.004_0.03_000310
 tests/run_snsc.sh.e48
 tests/run_snsc.sh.o48
 tests/test_heat.log
+
+.vscode/
+dev_glc/
