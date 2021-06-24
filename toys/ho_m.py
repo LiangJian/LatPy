@@ -7,7 +7,7 @@ Nt = 100
 m = 1
 w = 1
 
-dt = 0.1
+dt = 0.2  # lattice spacing, should be small somehow
 x = np.zeros(Nt) 
 
 # action
@@ -18,7 +18,7 @@ def s(m_, x_, dt_, w_):
 Nc = 20000  # number of trajectories
 Xs = []  # configurations
 dd = 0.2  # step
-dc = 100  # use every dc trajectories
+dc = 500  # use every dc trajectories
 
 S_old = np.inf
 i = 0
@@ -66,4 +66,5 @@ C2_sum = np.sum(C2, 1)
 C2 = (C2_sum.reshape(C2.shape[0], 1) - C2) / (C2.shape[1] - 1)
 E2 = np.log(C2 / np.roll(C2, -1, 0)) / dt
 print(gv.gvar(np.average(E2, 1),np.std(E2, 1)*np.sqrt(E2.shape[1])), end='\t')
+print()
 
