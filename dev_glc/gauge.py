@@ -54,7 +54,7 @@ class gauge(object):
         tmp = np.fromfile(file, **kwargs).reshape(self.ndim, self.nc,
                                                   self.nc, self.nri, self.nt, self.nx, self.nx, self.nx)
         self.u = np.transpose(tmp[:, :, :, 0, ...]+1j*tmp[:, :,
-                                                          :, 1, ...], (3, 4, 5, 6, 0, 1, 2)).reshape(self.u.shape)
+                                                          :, 1, ...], (3, 4, 5, 6, 0, 2, 1)).reshape(self.u.shape)
 
     def ReadLimeConf(self, file, **kwargs):
         """
@@ -79,3 +79,4 @@ class gauge(object):
                     tmp_dag[..., inu, :, :, :, :], -1, axis=(3 - imu)), tmp_dag[..., imu, :, :, :, :])
                 plaq = np.einsum("...ij,...ji->...", plaq_1, plaq_2) / 3
                 self.plaq[:, inu, imu] = np.average(plaq, (1, 2, 3, 4, 5))
+        print(np.sum(np.average(self.plaq,0))/6)
