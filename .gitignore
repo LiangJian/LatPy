@@ -10,5 +10,7 @@ tests/run_snsc.sh.e48
 tests/run_snsc.sh.o48
 tests/test_heat.log
 dev_glc/.ipynb_checkpoints/*
-
+*/__pycache__/*
+*.pyc
 .vscode/
+
