@@ -1,0 +1,47 @@
+vv done
+(96, 300, 300, 3, 3)
+read peram done
+(96, 300, 300, 4, 4)
+(96, 300, 300, 4, 4) (96, 300, 300, 4, 4)
+(96, 300, 300, 4, 4, 3, 3)
+Traceback (most recent call last):
+  File "test_contraction_cp.py", line 79, in <module>
+    R = contract('ijnlmop, iqnmr->ilropjq',T,Qd)
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/opt_einsum/contract.py", line 507, in contract
+    return _core_contract(operands, contraction_list, backend=backend, **einsum_kwargs)
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/opt_einsum/contract.py", line 591, in _core_contract
+    new_view = _einsum(einsum_str, *tmp_operands, backend=backend, **einsum_kwargs)
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/opt_einsum/sharing.py", line 151, in cached_einsum
+    return einsum(*args, **kwargs)
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/opt_einsum/contract.py", line 353, in _einsum
+    return fn(einsum_str, *operands, **kwargs)
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/cupy/linalg/_einsum.py", line 649, in einsum
+    arr_out, sub_out = reduced_binary_einsum(
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/cupy/linalg/_einsum.py", line 415, in reduced_binary_einsum
+    tmp0, shapes0 = _flatten_transpose(arr0, [bs0, ts0, cs0])
+  File "/beegfs/home/liangj/packages/miniconda3/lib/python3.8/site-packages/cupy/linalg/_einsum.py", line 294, in _flatten_transpose
+    a.transpose(transpose_axes).reshape(
+  File "cupy/_core/core.pyx", line 601, in cupy._core.core.ndarray.reshape
+  File "cupy/_core/_routines_manipulation.pyx", line 79, in cupy._core._routines_manipulation._ndarray_reshape
+  File "cupy/_core/_routines_manipulation.pyx", line 310, in cupy._core._routines_manipulation._reshape
+  File "cupy/_core/core.pyx", line 497, in cupy._core.core.ndarray.copy
+  File "cupy/_core/core.pyx", line 453, in cupy._core.core.ndarray.astype
+  File "cupy/_core/core.pyx", line 164, in cupy._core.core.ndarray.__init__
+  File "cupy/cuda/memory.pyx", line 718, in cupy.cuda.memory.alloc
+  File "cupy/cuda/memory.pyx", line 1395, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1416, in cupy.cuda.memory.MemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1096, in cupy.cuda.memory.SingleDeviceMemoryPool.malloc
+  File "cupy/cuda/memory.pyx", line 1117, in cupy.cuda.memory.SingleDeviceMemoryPool._malloc
+  File "cupy/cuda/memory.pyx", line 1355, in cupy.cuda.memory.SingleDeviceMemoryPool._try_malloc
+cupy.cuda.memory.OutOfMemoryError: Out of memory allocating 19,906,560,000 bytes (allocated so far: 29,998,081,024 bytes).
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[12810,1],0]
+  Exit code:    1
+--------------------------------------------------------------------------

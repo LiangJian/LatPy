@@ -1,0 +1,201 @@
+read vvv used 128.8476 s.
+(96, 200, 200, 200)
+copy vvv to gpu used 4.0154 s.
+
+GPU memory used 2.9096 GB.
+
+(96, 200, 200, 4, 4)
+read peram with t0 = 0 done, used 29.3666 s.
+contraction for peram with t0 = 0 done, used 19.0671 s.
+max GPU memory used 10.7075 GB.
+
+(96, 200, 200, 4, 4)
+read peram with t0 = 4 done, used 30.0085 s.
+contraction for peram with t0 = 4 done, used 18.6578 s.
+max GPU memory used 10.7075 GB.
+
+(96, 200, 200, 4, 4)
+read peram with t0 = 8 done, used 28.4535 s.
+contraction for peram with t0 = 8 done, used 18.6670 s.
+max GPU memory used 10.7075 GB.
+
+(96, 200, 200, 4, 4)
+read peram with t0 = 12 done, used 29.0232 s.
+contraction for peram with t0 = 12 done, used 18.6855 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 16 done, used 29.1016 s.
+contraction for peram with t0 = 16 done, used 18.6900 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 20 done, used 28.1892 s.
+contraction for peram with t0 = 20 done, used 18.6962 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 24 done, used 30.0972 s.
+contraction for peram with t0 = 24 done, used 18.6930 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 28 done, used 30.3569 s.
+contraction for peram with t0 = 28 done, used 18.6933 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 32 done, used 28.7986 s.
+contraction for peram with t0 = 32 done, used 18.7178 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 36 done, used 28.3685 s.
+contraction for peram with t0 = 36 done, used 18.7034 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 40 done, used 29.7289 s.
+contraction for peram with t0 = 40 done, used 18.7022 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 44 done, used 28.3824 s.
+contraction for peram with t0 = 44 done, used 18.7325 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 48 done, used 28.0687 s.
+contraction for peram with t0 = 48 done, used 18.7277 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 52 done, used 29.0566 s.
+contraction for peram with t0 = 52 done, used 18.7282 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 56 done, used 29.2288 s.
+contraction for peram with t0 = 56 done, used 18.7291 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 60 done, used 28.9067 s.
+contraction for peram with t0 = 60 done, used 18.7224 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 64 done, used 29.5423 s.
+contraction for peram with t0 = 64 done, used 18.7217 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 68 done, used 29.0151 s.
+contraction for peram with t0 = 68 done, used 18.7195 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 72 done, used 28.1966 s.
+contraction for peram with t0 = 72 done, used 18.7313 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 76 done, used 28.7431 s.
+contraction for peram with t0 = 76 done, used 18.7133 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 80 done, used 28.7370 s.
+contraction for peram with t0 = 80 done, used 18.7039 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 84 done, used 29.5161 s.
+contraction for peram with t0 = 84 done, used 18.7156 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 88 done, used 27.4226 s.
+contraction for peram with t0 = 88 done, used 18.7252 s.
+max GPU memory used 10.7075 GB.
+(96, 200, 200, 4, 4)
+read peram with t0 = 92 done, used 28.5092 s.
+contraction for peram with t0 = 92 done, used 18.7140 s.
+max GPU memory used 10.7075 GB.
+0 7.33117223e-01
+1 1.94394469e-01
+2 8.11906606e-02
+3 3.87825184e-02
+4 1.98226664e-02
+5 1.06065013e-02
+6 6.21781358e-03
+7 3.70537490e-03
+8 2.18043686e-03
+9 1.26131147e-03
+10 8.31937068e-04
+11 5.21057053e-04
+12 3.25100729e-04
+13 1.88853999e-04
+14 1.03107624e-04
+15 6.41189836e-05
+16 3.10703617e-05
+17 2.15331202e-05
+18 8.60604814e-06
+19 -4.35094307e-06
+20 -1.15099801e-05
+21 -1.12008247e-05
+22 -9.40884092e-06
+23 -5.83000974e-06
+24 -3.50905634e-06
+25 -2.58208047e-06
+26 -1.60845002e-06
+27 -7.91021307e-07
+28 3.13859857e-07
+29 8.16267118e-07
+30 5.20302194e-07
+31 3.69437849e-08
+32 2.67549410e-07
+33 3.15464177e-07
+34 1.79243216e-07
+35 -3.02224734e-08
+36 -1.19112244e-07
+37 -5.88291869e-08
+38 -4.64559236e-09
+39 7.31169436e-09
+40 -1.47509773e-08
+41 -1.64516845e-09
+42 8.85987284e-09
+43 1.89576994e-08
+44 6.16291089e-08
+45 5.51624701e-08
+46 5.69695864e-08
+47 1.83685351e-08
+48 -2.04281356e-08
+49 -3.22356861e-08
+50 -8.08000351e-08
+51 -5.45017365e-08
+52 3.15493338e-08
+53 7.63299539e-08
+54 9.04682693e-08
+55 1.57860399e-07
+56 1.42834210e-07
+57 8.19526207e-08
+58 -1.18590773e-08
+59 -6.72864502e-08
+60 -1.43998989e-07
+61 -2.28076914e-07
+62 -3.82151768e-07
+63 -1.42963472e-07
+64 -1.95079423e-07
+65 -2.07449659e-07
+66 -2.44010295e-07
+67 -3.19479085e-07
+68 1.13713554e-07
+69 5.32957756e-07
+70 8.28302461e-07
+71 1.30425974e-06
+72 1.82655333e-06
+73 1.34348761e-06
+74 2.08776487e-06
+75 -8.47836930e-07
+76 -2.17707270e-06
+77 6.95343658e-07
+78 -5.59528587e-07
+79 4.23243910e-06
+80 8.04561205e-06
+81 1.19155993e-05
+82 5.33244292e-06
+83 -1.63778714e-06
+84 1.08621007e-05
+85 3.05469548e-05
+86 6.42668238e-05
+87 1.24792670e-04
+88 2.89557822e-04
+89 6.20724924e-04
+90 1.27168815e-03
+91 2.72446452e-03
+92 6.26430567e-03
+93 1.43413153e-02
+94 3.69924307e-02
+95 1.07881010e-01

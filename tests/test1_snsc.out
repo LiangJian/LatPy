@@ -1,4 +1,4 @@
-Using numpy, time taken is  16.29409408569336 s. 
-Using HeAT on cpus, time taken is  1.8629071712493896 s. 
-Uisng cupy, time taken is  0.5770221710205078 s. 
-Using HeAT on gpus, time taken is  0.036671946048736574 s. 
+Using numpy, time taken is  15.55518388748169 s. 
+Using HeAT on cpus, time taken is  1.2248053550720215 s. 
+Uisng cupy, time taken is  0.5843644046783447 s. 
+Using HeAT on gpus, time taken is  0.036683454513549804 s. 
